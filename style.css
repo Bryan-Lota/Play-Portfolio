@@ -1,11 +1,140 @@
 body{
  margin: 0;
+ text-align: center;
+font-family: cursive;
+color: #40514e;
+}
+
+p{
+    line-height: 2;
 }
 
 h1{
-    margin: 0;
+    margin: 50px auto 0 auto;
+    font-size: 343.75%;
+    color: #66BFBF;
+    font-weight: lighter;
 }
 
+
 #first-container-section{
-    background-color: #eaf6f6;
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 120px;
+}
+
+#pro{
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+
+}
+
+h3{
+    color:#11999E;
+}
+
+img{
+    display: inline-block;
+}
+
+.bryan{
+    margin-top: 10px;
+    width: 20%;
+    border-radius: 35%;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 290px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.computer{
+    width: 25%;
+    margin-right: 30px;
+    float: left;
+}
+
+.chillies{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 40px auto;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 30px;
+}
+
+.btn{
+    background-color:#11999e ;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color:#30e3cb;
+    text-decoration: none;
+}
+
+hr{
+  border: dotted #eaf6f6 6px;
+  width: 4%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+.contact-me{
+    margin: 200px;  
+}
+
+#edi{
+    color: #e2f3f3;
+    margin: 25px;
+    font-size: 15px;
+    font-family: serif;
+}
+
+.footer-link{
+    text-decoration: none;
+    padding: 20px;
+    color: #11999E;
+}
+
+.footer-link:hover{
+    color: white;
 }
